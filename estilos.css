@@ -1,0 +1,49 @@
+@charset "utf-8";
+    body{ /* fundo amarelo */
+        background:-webkit-linear-gradient(270deg, rgba(255, 255, 204, 1) 0%, rgba(255, 255, 204, 1) 0%, rgba(255, 204, 0, 1) 100%, rgba(255, 204, 0, 1) 100%);
+  		background:-moz-linear-gradient(180deg, rgba(255, 255, 204, 1) 0%, rgba(255, 255, 204, 1) 0%, rgba(255, 204, 0, 1) 100%, rgba(255, 204, 0, 1) 100%);
+  		background:linear-gradient(180deg, rgba(255, 255, 204, 1) 0%, rgba(255, 255, 204, 1) 0%, rgba(255, 204, 0, 1) 100%, rgba(255, 204, 0, 1) 100%);
+  		
+    }
+
+    #Interface{/* fundo branco */
+    	position: relative;
+  		margin: 80px auto 0px auto; /* MARGEM EXTERNA*/
+  		width:450px;
+  		height:500px;
+  		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+  		padding: 10px 10px 10px 10px; /* MARGEM INTERNA*/
+        background-color: white;
+        border-radius: 30px;
+
+	}
+
+	figure.logo img{
+	    width: 60%;
+	    height: 60%;
+	    margin: 45px auto 0 50px;
+	}
+	#login{
+	    margin: 0 0 15px 100px;
+	}
+	button{
+	    width: 25%;
+	    margin-left: 80px;
+	}
+
+	.linha1{
+		position: absolute;
+		width: 150px;
+		margin: 15px 0px 0px 270px;
+		border-top: 2px black solid;
+	}
+	.linha2{
+		position: absolute;
+		width: 150px;
+		margin: 15px 0px 0px 40px;
+		border-top: 2px black solid;
+	}
+	.face{
+		margin-top: 25px;
+	    text-align: center
+	}
