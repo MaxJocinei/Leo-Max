@@ -1,0 +1,141 @@
+﻿body {
+  background:-webkit-linear-gradient(270deg, rgba(255, 255, 204, 1) 0%, rgba(255, 255, 204, 1) 0%, rgba(255, 204, 0, 1) 100%, rgba(255, 204, 0, 1) 100%);
+  background:-moz-linear-gradient(180deg, rgba(255, 255, 204, 1) 0%, rgba(255, 255, 204, 1) 0%, rgba(255, 204, 0, 1) 100%, rgba(255, 204, 0, 1) 100%);
+  background:linear-gradient(180deg, rgba(255, 255, 204, 1) 0%, rgba(255, 255, 204, 1) 0%, rgba(255, 204, 0, 1) 100%, rgba(255, 204, 0, 1) 100%);
+  
+}
+#base { /* fundo branco */
+      position: relative;
+      margin: 80px auto 0px auto; /* MARGEM EXTERNA*/
+      width:450px;
+      height:500px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+      padding: 10px 10px 10px 10px; /* MARGEM INTERNA*/
+        background-color: white;
+        border-radius: 30px;
+}
+#u2_img { /* logo carrinho de compras */
+  
+      width: 60%;
+      height: 60%;
+      margin: 45px auto 0 50px;
+}
+#u3 { /* e-mail (Text Field) */
+  border-width:0px;
+  position:absolute;
+  margin: 0 0 15px 130px;
+  width:181px;
+  height:23px;
+}
+#u3_input { /* e-mail (Text Field) */
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:181px;
+  height:23px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+}
+#u4 { /* senha (Text Field) */
+  border-width:0px;
+  position:absolute;
+  margin: 50px 0 15px 130px;
+  width:181px;
+  height:25px;
+}
+#u4_input { /* senha (Text Field) */
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:181px;
+  height:25px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+} 
+#u5_text { /* Login (Label) */
+  border-width:0px;
+  position:absolute;
+  margin: -20px 0 15px 130px;
+  width:36px;
+  white-space:nowrap;
+}
+#u6_text { /* Senha (Label) */
+  border-width:0px;
+  position:absolute;
+  margin: 30px 0 15px 130px;
+  width:42px;
+  white-space:nowrap;
+}
+#u7_input { /* btnEntrar (HTML Button) */
+  position:absolute;
+  margin: 90px 0px 0px -73px;
+  width:140px;
+  height:25px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#333333;
+  text-align:center;
+}
+#u9_text { /* Entrar Face (Label) */
+  color:black;
+  border-width:0px;
+  position:absolute;
+  left:170px;
+  top:430px;
+  width:149px;
+  white-space:nowrap;
+}
+#u10_img { /* Icone Face (Image) */
+  border-width:0px;
+  position:absolute;
+  left:135px;
+  top:423px;
+  width:30px;
+  height:30px;
+}
+
+.linha1{
+    position: absolute;
+    width: 200px;
+    margin: -110px 0px 0px 695px;
+    border-top: 1px black solid;
+  }
+  .linha2{
+    position: absolute;
+    width: 200px;
+    margin: -110px 0px 0px 440px;
+    border-top: 1px black solid;
+  }
+#u12_text { /* Ou (Label) */
+  position: absolute;
+  color:black;
+  border-width:0px;
+  position:absolute;
+  left:670px;
+  top:480px;
+  width:17px;
+  white-space:nowrap;
+}
+
+#u14_text { /* Crie Conta (Label) */
+  color:black;
+  border-width:0px;
+  position:absolute;
+  left:625px;
+  top:580px;
+  width:96px;
+  white-space:nowrap;
+}
