@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>menuPrincipal</title>
@@ -13,6 +13,7 @@
     <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
     <script src="resources/scripts/prototypePre.js"></script>
     <script src="data/document.js"></script>
+    <script src="files/menuprincipal/funcaoMudaFoto.js"></script>
     <script src="resources/scripts/prototypePost.js"></script>
     <script src="files/menuprincipal/data.js"></script>
     <script type="text/javascript">
@@ -25,40 +26,25 @@
     <!-- fundo amarelo -->
     <div id="base" class="">
 
-      <!-- barraTopo (Rectangle) -->
-      <div id="u67" class="ax_default box_1" data-label="barraTopo">
-        <img id="u67_img" class="img " src="images/cadastrocliente/barratopo_u17.png"/>
-      </div>
+      <header id="cabecalho">
+        <img id="logo" src="images/cliente/regen/u2.png">
+        
+        <img id="icone" src="images/cliente/regen/u2.png">
+        <nav id="menu">
+          <ol>
+            <li onmouseover="mudaFoto('images/menuprincipal/novalista_u73.png')" onmouseout="mudaFoto('images/cliente/regen/u2.png')">Nova Lista</li>
+            <li onmouseover="mudaFoto('images/menuprincipal/visualizarlista_u83.png')" onmouseout="mudaFoto('images/cliente/regen/u2.png')">Visualizar Lista</li>
+            <li onmouseover="mudaFoto('images/menuprincipal/acompanharpedido_u81.png')" onmouseout="mudaFoto('images/cliente/regen/u2.png')">Acompanhar Pedido</li>
+            <li onmouseover="mudaFoto('images/menuprincipal/avalia__es_u82.png')" onmouseout="mudaFoto('images/cliente/regen/u2.png')">Avaliações</li>
+          </ol>
+        </nav>
+      </header>
 
       <!-- Imagem Branca Fundo Menu (Rectangle) -->
       <div id="u69" class="ax_default box_1">
         
       </div>
 
-      <!-- logo (Image) -->
-      <div id="u71" class="ax_default image" data-label="logo">
-        <img id="u71_img" class="img " src="images/cadastrocliente/logo_u19.png"/>
-      </div>
-
-      <!-- novaLista (Image) -->
-      <div id="u73" class="ax_default image" data-label="novaLista">
-        <img id="u73_img" class="img " src="images/menuprincipal/novalista_u73.png"/>
-      </div>
-
-      <!-- acompanharPedido (Image) -->
-      <div id="u81" class="ax_default image" data-label="acompanharPedido">
-        <img id="u81_img" class="img " src="images/menuprincipal/acompanharpedido_u81.png"/>
-      </div>
-
-      <!-- avaliações (Image) -->
-      <div id="u82" class="ax_default image" data-label="avaliações">
-        <img id="u82_img" class="img " src="images/menuprincipal/avalia__es_u82.png"/>
-      </div>
-
-      <!-- visualizarLista (Image) -->
-      <div id="u83" class="ax_default image" data-label="visualizarLista">
-        <img id="u83_img" class="img " src="images/menuprincipal/visualizarlista_u83.png"/>
-      </div>
     </div>
   </body>
 </html>
